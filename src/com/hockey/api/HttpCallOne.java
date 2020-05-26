@@ -15,9 +15,6 @@ public class HttpCallOne {
 
     private static HttpURLConnection connection;
 
-    public HttpCallOne(String s) {
-    }
-
     public static String httpCallOne(String urlString) throws MalformedURLException {
         BufferedReader reader;
         String line;
